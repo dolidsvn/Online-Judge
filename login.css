@@ -1,0 +1,42 @@
+body
+{
+    background-image:url("login.png");
+}
+.log
+{
+    position:absolute;
+    top:340px;
+    left:1030px;
+    font-size: 40px;
+}
+.log input[type="text"],input[type="password"]
+{
+border:none;
+border-bottom:1px solid #601BB7;
+background-color:transparent;
+outline:none;
+height:40px;
+color:black;
+font-size:20px;
+}
+.btn
+{
+    position:absolute;
+    top:532px;
+    left:1105px;    
+}
+.btn input[type="submit"]
+{
+border:none;
+outline:none;
+height:40px;
+background-color:#601BB7;
+color:white;
+font-size:28px;
+border-radius:30px;
+}
+.btn input[type="submit"]:hover
+{
+cursor:pointer;
+transition:0.6s ease;
+}
